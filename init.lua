@@ -19,3 +19,8 @@ hs.hotkey.bind({"ctrl"}, "return", function()
     termWin:focus()
   end
 end)
+
+-- Lock screen
+hs.hotkey.bind({"ctrl"}, "L", function()
+  hs.caffeinate.lockScreen()
+end)
